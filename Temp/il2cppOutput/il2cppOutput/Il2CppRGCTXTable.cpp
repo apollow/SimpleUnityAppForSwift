@@ -1,0 +1,174 @@
+﻿#include "il2cpp-config.h"
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#ifndef _MSC_VER
+#include <alloca.h>
+#else
+#include <malloc.h>
+#endif
+#include <cmath>
+#include <limits>
+#include <assert.h>
+
+extern const Il2CppRGCTXDefinition ScriptableObject_CreateInstance_m12774_RGCTXData[];
+extern const Il2CppRGCTXDefinition Component_GetComponent_m12777_RGCTXData[];
+extern const Il2CppRGCTXDefinition ResponseBase_ParseJSONList_m12779_RGCTXData[];
+extern const Il2CppRGCTXDefinition NetworkMatch_ProcessMatchResponse_m12780_RGCTXData[];
+extern const Il2CppRGCTXDefinition U3CProcessMatchResponseU3Ec__Iterator0_1_t2047_RGCTXData[];
+extern const Il2CppRGCTXDefinition ThreadSafeDictionary_2_t2048_RGCTXData[];
+extern const Il2CppRGCTXDefinition Stack_1_t2056_RGCTXData[];
+extern const Il2CppRGCTXDefinition Enumerator_t2057_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_InternalArray__IEnumerable_GetEnumerator_m12929_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_InternalArray__ICollection_Contains_m12932_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_InternalArray__IndexOf_m12935_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_InternalArray__set_Item_m12937_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m12941_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m12942_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m12943_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m12944_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m12945_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m12946_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m12947_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m12948_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m12949_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m12950_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_qsort_m12951_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_compare_m12952_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_qsort_m12953_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Resize_m12956_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Resize_m12957_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_TrueForAll_m12958_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_ForEach_m12959_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_ConvertAll_m12960_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_FindLastIndex_m12961_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_FindLastIndex_m12962_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_FindLastIndex_m12963_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_FindIndex_m12964_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_FindIndex_m12965_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_FindIndex_m12966_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_BinarySearch_m12967_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_BinarySearch_m12968_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_BinarySearch_m12969_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_BinarySearch_m12970_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_IndexOf_m12971_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_IndexOf_m12972_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_IndexOf_m12973_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_LastIndexOf_m12974_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_LastIndexOf_m12975_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_LastIndexOf_m12976_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_FindAll_m12977_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Exists_m12978_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_AsReadOnly_m12979_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Find_m12980_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_FindLast_m12981_RGCTXData[];
+extern const Il2CppRGCTXDefinition InternalEnumerator_1_t2065_RGCTXData[];
+extern const Il2CppRGCTXDefinition ArrayReadOnlyList_1_t2066_RGCTXData[];
+extern const Il2CppRGCTXDefinition U3CGetEnumeratorU3Ec__Iterator0_t2067_RGCTXData[];
+extern const Il2CppRGCTXDefinition Nullable_1_t1417_RGCTXData[];
+extern const Il2CppRGCTXDefinition Comparer_1_t2076_RGCTXData[];
+extern const Il2CppRGCTXDefinition DefaultComparer_t2077_RGCTXData[];
+extern const Il2CppRGCTXDefinition GenericComparer_1_t2043_RGCTXData[];
+extern const Il2CppRGCTXDefinition Dictionary_2_Do_CopyTo_m13129_RGCTXData[];
+extern const Il2CppRGCTXDefinition Dictionary_2_Do_ICollectionCopyTo_m13134_RGCTXData[];
+extern const Il2CppRGCTXDefinition Dictionary_2_t2078_RGCTXData[];
+extern const Il2CppRGCTXDefinition ShimEnumerator_t2079_RGCTXData[];
+extern const Il2CppRGCTXDefinition Enumerator_t2080_RGCTXData[];
+extern const Il2CppRGCTXDefinition KeyCollection_t2081_RGCTXData[];
+extern const Il2CppRGCTXDefinition Enumerator_t2082_RGCTXData[];
+extern const Il2CppRGCTXDefinition ValueCollection_t2083_RGCTXData[];
+extern const Il2CppRGCTXDefinition Enumerator_t2084_RGCTXData[];
+extern const Il2CppRGCTXDefinition EqualityComparer_1_t2086_RGCTXData[];
+extern const Il2CppRGCTXDefinition DefaultComparer_t2087_RGCTXData[];
+extern const Il2CppRGCTXDefinition GenericEqualityComparer_1_t2042_RGCTXData[];
+extern const Il2CppRGCTXDefinition KeyValuePair_2_t2091_RGCTXData[];
+extern const Il2CppRGCTXDefinition List_1_t2092_RGCTXData[];
+extern const Il2CppRGCTXDefinition Enumerator_t2093_RGCTXData[];
+extern const Il2CppRGCTXDefinition Collection_1_t2094_RGCTXData[];
+extern const Il2CppRGCTXDefinition ReadOnlyCollection_1_t2095_RGCTXData[];
+extern const Il2CppRGCTXDefinition MonoProperty_GetterAdapterFrame_m13384_RGCTXData[];
+extern const Il2CppRGCTXDefinition MonoProperty_StaticGetterAdapterFrame_m13385_RGCTXData[];
+extern const Il2CppRGCTXDefinition Activator_CreateInstance_m13499_RGCTXData[];
+extern const Il2CppRGCTXDefinition* s_RGCXTDefinitionTable[78] = 
+{
+	ScriptableObject_CreateInstance_m12774_RGCTXData,
+	Component_GetComponent_m12777_RGCTXData,
+	ResponseBase_ParseJSONList_m12779_RGCTXData,
+	NetworkMatch_ProcessMatchResponse_m12780_RGCTXData,
+	U3CProcessMatchResponseU3Ec__Iterator0_1_t2047_RGCTXData,
+	ThreadSafeDictionary_2_t2048_RGCTXData,
+	Stack_1_t2056_RGCTXData,
+	Enumerator_t2057_RGCTXData,
+	Array_InternalArray__IEnumerable_GetEnumerator_m12929_RGCTXData,
+	Array_InternalArray__ICollection_Contains_m12932_RGCTXData,
+	Array_InternalArray__IndexOf_m12935_RGCTXData,
+	Array_InternalArray__set_Item_m12937_RGCTXData,
+	Array_Sort_m12941_RGCTXData,
+	Array_Sort_m12942_RGCTXData,
+	Array_Sort_m12943_RGCTXData,
+	Array_Sort_m12944_RGCTXData,
+	Array_Sort_m12945_RGCTXData,
+	Array_Sort_m12946_RGCTXData,
+	Array_Sort_m12947_RGCTXData,
+	Array_Sort_m12948_RGCTXData,
+	Array_Sort_m12949_RGCTXData,
+	Array_Sort_m12950_RGCTXData,
+	Array_qsort_m12951_RGCTXData,
+	Array_compare_m12952_RGCTXData,
+	Array_qsort_m12953_RGCTXData,
+	Array_Resize_m12956_RGCTXData,
+	Array_Resize_m12957_RGCTXData,
+	Array_TrueForAll_m12958_RGCTXData,
+	Array_ForEach_m12959_RGCTXData,
+	Array_ConvertAll_m12960_RGCTXData,
+	Array_FindLastIndex_m12961_RGCTXData,
+	Array_FindLastIndex_m12962_RGCTXData,
+	Array_FindLastIndex_m12963_RGCTXData,
+	Array_FindIndex_m12964_RGCTXData,
+	Array_FindIndex_m12965_RGCTXData,
+	Array_FindIndex_m12966_RGCTXData,
+	Array_BinarySearch_m12967_RGCTXData,
+	Array_BinarySearch_m12968_RGCTXData,
+	Array_BinarySearch_m12969_RGCTXData,
+	Array_BinarySearch_m12970_RGCTXData,
+	Array_IndexOf_m12971_RGCTXData,
+	Array_IndexOf_m12972_RGCTXData,
+	Array_IndexOf_m12973_RGCTXData,
+	Array_LastIndexOf_m12974_RGCTXData,
+	Array_LastIndexOf_m12975_RGCTXData,
+	Array_LastIndexOf_m12976_RGCTXData,
+	Array_FindAll_m12977_RGCTXData,
+	Array_Exists_m12978_RGCTXData,
+	Array_AsReadOnly_m12979_RGCTXData,
+	Array_Find_m12980_RGCTXData,
+	Array_FindLast_m12981_RGCTXData,
+	InternalEnumerator_1_t2065_RGCTXData,
+	ArrayReadOnlyList_1_t2066_RGCTXData,
+	U3CGetEnumeratorU3Ec__Iterator0_t2067_RGCTXData,
+	Nullable_1_t1417_RGCTXData,
+	Comparer_1_t2076_RGCTXData,
+	DefaultComparer_t2077_RGCTXData,
+	GenericComparer_1_t2043_RGCTXData,
+	Dictionary_2_Do_CopyTo_m13129_RGCTXData,
+	Dictionary_2_Do_ICollectionCopyTo_m13134_RGCTXData,
+	Dictionary_2_t2078_RGCTXData,
+	ShimEnumerator_t2079_RGCTXData,
+	Enumerator_t2080_RGCTXData,
+	KeyCollection_t2081_RGCTXData,
+	Enumerator_t2082_RGCTXData,
+	ValueCollection_t2083_RGCTXData,
+	Enumerator_t2084_RGCTXData,
+	EqualityComparer_1_t2086_RGCTXData,
+	DefaultComparer_t2087_RGCTXData,
+	GenericEqualityComparer_1_t2042_RGCTXData,
+	KeyValuePair_2_t2091_RGCTXData,
+	List_1_t2092_RGCTXData,
+	Enumerator_t2093_RGCTXData,
+	Collection_1_t2094_RGCTXData,
+	ReadOnlyCollection_1_t2095_RGCTXData,
+	MonoProperty_GetterAdapterFrame_m13384_RGCTXData,
+	MonoProperty_StaticGetterAdapterFrame_m13385_RGCTXData,
+	Activator_CreateInstance_m13499_RGCTXData,
+};
